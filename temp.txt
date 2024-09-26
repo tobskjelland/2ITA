@@ -1,0 +1,17 @@
+# Laget av Tobias Lekman Skjelland
+# Dato: 25.09.2024
+# 2ITA
+
+
+
+# oppgave
+
+Jeg skal konvertere celsius til fahrenheit og motsatt
+
+
+# start
+
+jeg begynner med å lage 2 def funksjoner som jeg skal kalle på senere
+
+jeg lager en input hvor bruker skal skrive inn om de vil konvertere celsius eller fahrenheit
+
