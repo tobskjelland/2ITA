@@ -1,0 +1,25 @@
+# Laget av Tobias Lekman Skjelland
+# Dato: 24.09.24
+# 2ITA
+
+
+# start
+
+importerer math modul så jeg kan bruke math.pi
+
+definerer rektangel funksjonen med paramtere h og b for høyde og bredde
+    returnerer høyde * bredde
+
+lager input for brukere hvor de skal skrive inn høyde oh bredde
+
+printer ut resultatet av areal regningen fra tallene fra bruker
+
+definerer sirkel funksjonen med parameteren (r)
+    også returnerer jeg 3.14 * r * r
+
+lager en input for sirkel funksjonen
+
+så printer jeg ut resultatet av regnestykket av areal
+
+
+# slutt
