@@ -1,0 +1,48 @@
+# Laget av Tobias Lekman Skjelland
+# Dato: 24.09.24
+# 2ITA
+
+
+# oppgavetekst
+
+Du skal lage en algoritme der du skal finne hva som gir størst volum på en eske du kan brette med et A4-ark (optimalisering). 
+I denne oppgaven skal du lage en funksjon som beregner volumet av esken som beskrevet over. 
+Funksjonen skal ta imot «høyde» på esken som innverdi (argument) og returnere «volum» på esken.
+
+Algoritmen skal først dokumenteres gjennom å skrive løsningen med en pseudokode. 
+Når du har testet logikken i pseudokoden og den er riktig, skal du skrive programmet i Python med bruk av VS code.
+
+Både pseudokoden (txt-fil) og Python-koden (py-fil) skal til slutt 
+lastes opp i Teams under oppgave: UV oppg 07 – Størst volum på eske
+
+# start
+
+Definer funksjon volum_kalk(bruker_hoyde):                      # gir funksjonen en parameter 
+
+    Sett a4_bredde = 21 - bruker_hoyde * 2
+    Sett a4_lengde = 29.7 - bruker_hoyde * 2
+    Hvis a4_bredde <= 0 eller a4_lengde <= 0, returner 0
+    Beregn volum = a4_bredde * a4_lengde * bruker_hoyde
+    Returner volum
+
+Spør brukeren om å skrive inn høyde på esken:
+    Konverter input til en desimalverdi
+
+regner volum for brukerens høyde:
+    Kaller på volum_kalk bruker_hoyde for å beregne volumet.
+
+    Print volumet til skjermen
+
+Spør brukeren om de vil se optimal høyde for maks volum:
+    Hvis brukeren svarer "ja":
+        Sett optimal_hoyde = 0 og maks_volum = 0.
+        Sett hoyde = 0.1.
+        While løkke:
+            Kjør løkke så lenge hoyde <= 10.5:
+                Beregn volum for hoyde ved å kalle volum_kalk(hoyde).
+                Hvis dette volumet er større enn maks_volum, oppdater maks_volum og optimal_hoyde.
+                Øk hoyde med 0.1.
+        Print optimal_hoyde og maks_volum.
+
+
+# slutt
