@@ -1,0 +1,49 @@
+# Laget av Tobias Lekman Skjelland
+# Dato: 4.10.24
+# 2ITA
+
+
+# oppgavetekst
+
+I oppgave 04 (Gangetabellen) laget dere en algoritme med kun variabler der brukeren kunne oppgi et tall fra 1 til 10 f.eks. tallet 5. 
+Algoritmen skulle skrive ut gangetabellen for tallet 5 til skjerm. Utskriften til skjerm kunne se slik ut:
+Her ser du 5 gangen:
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+
+I denne oppgaven skal du ta vare på den aktuelle gangetabellen i en liste. Listen skal skrives til skjerm i slutten av programmet. 
+I denne algoritmen skal du benytte en løkke. Algoritmen skal først dokumenteres gjennom å skrive løsningen med en pseudokode. 
+Når du har testet logikken i pseudokoden og den er riktig, skal du skrive programmet i Python med bruk av VS code.
+
+Både pseudokoden (txt-fil) og Python-koden (py-fil) skal til slutt lastes opp i Teams under oppgave: UV oppg 08 – Relevante lister 
+
+
+# start
+
+try:
+    Jeg lager en liste for gangetabellene
+
+    jeg lager en while True løkke
+
+    Jeg lager en input for bruker hvor de skal skrive inn ønskede gangetabell fra 1-10
+
+    jeg lager en if setning hvor hvis tallet er mindre enn 1 og større enn 10 så skal det printes ut en feilmelding og programmet skal starte på nytt med continue
+
+    jeg lager en for løkke hvor jeg legger inn en range(1,11) også regner jeg ut resultatet av bruke_tall og gangetallene i Listen
+
+    jeg bruker append for å legge til resultatet i Listen
+
+    jeg printer ut resultatet i konsoll til bruker etter at de har valgt ett gyldig tall 
+
+except ValueError:
+    print("skriv tall fra 1-10 og ikke tekst")
+
+# slutt
